@@ -69,6 +69,7 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* header */
 header{
     display: flex;
     justify-content: space-between;
@@ -83,9 +84,13 @@ header a{
     text-decoration: none;
     color: black;
 }
+
+/* Image under the header */
 .imgUnderHeader{
     margin: 2% 0 3% 0;
 }
+
+/* texte under first image */
 .about{
     padding: 0% 3% 3% 3%;    
     border-bottom: 1px dashed black;
@@ -96,6 +101,8 @@ header a{
     flex-wrap: wrap;
     justify-content: space-between;
 } 
+
+/*4 square texte/images */
 .sector{
     width: 47.5%;
     padding: 3% 0;
@@ -120,9 +127,12 @@ header a{
     font-size: 1.05rem;
     font-weight: 500;
 }
+
+/* last texte before footer */
 .lastText{
     margin: 5% 0;
 }
+/* footer */
 footer {
     width: 100%;
     background: black;

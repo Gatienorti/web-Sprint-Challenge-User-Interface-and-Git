@@ -69,6 +69,7 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* Header */
 header{
     display: flex;
     justify-content: space-between;
@@ -83,9 +84,13 @@ header a{
     text-decoration: none;
     color: black;
 }
+
+/* image under Header */
 .imgUnderHeader{
     margin: 2% 0 5% 0;
 }
+
+/* text under image*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -100,6 +105,7 @@ header a{
     padding-bottom: 20px;  
 }
 
+/* box section with different color */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -156,6 +162,8 @@ header a{
 .middle-content .boxes .box + .box + .box + .box + .box + .box + .box + .box + .box + .box{
     background:dodgerblue;
 }
+
+/* texte before footer */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -170,6 +178,7 @@ header a{
     padding-right: 0;
 }
 
+/* footer */
 footer {
     width: 100%;
     background: black;
