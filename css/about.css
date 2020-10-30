@@ -72,7 +72,7 @@ p {
 header{
     display: flex;
     justify-content: space-between;
-    margin:4% 0 2% 0;
+    margin:4% 0 5% 0;
     text-align: center;
 }
 header div{
@@ -84,92 +84,45 @@ header a{
     color: black;
 }
 .imgUnderHeader{
-    margin: 2% 0 5% 0;
+    margin: 2% 0 3% 0;
 }
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+.about{
+    padding: 0% 3% 3% 3%;    
     border-bottom: 1px dashed black;
 }
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
+.about-page{
+    margin-top: 5%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+} 
+.sector{
+    width: 47.5%;
+    padding: 3% 0;
+    border-bottom: 1px dashed black;
+    display: block;
+} 
+.sector img{
+    width: 100%;
+    height: auto;
 }
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.sector div{
+    width: 32.5%;
+    padding: 2.1% 0;
+    margin-top: 3%;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
 }
-.middle-content .boxes .box {
-    background:teal;
+.sector div a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.05rem;
+    font-weight: 500;
 }
-.middle-content .boxes .box + .box{
-    background:gold;
+.lastText{
+    margin: 5% 0;
 }
-.middle-content .boxes .box + .box + .box{
-    background:cadetblue;
-}
-.middle-content .boxes .box + .box + .box + .box{
-    background:coral;
-}
-.middle-content .boxes .box + .box + .box + .box + .box{
-    background:crimson;
-}
-.middle-content .boxes .box + .box + .box + .box + .box + .box{
-    background:forestgreen;
-}
-.middle-content .boxes .box + .box + .box + .box + .box + .box + .box{
-    background:darkorchid;
-}
-.middle-content .boxes .box + .box + .box + .box + .box + .box + .box + .box{
-    background:hotpink;
-}
-.middle-content .boxes .box + .box + .box + .box + .box + .box + .box + .box + .box{
-    background:indigo;
-}
-.middle-content .boxes .box + .box + .box + .box + .box + .box + .box + .box + .box + .box{
-    background:dodgerblue;
-}
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
 footer {
     width: 100%;
     background: black;
