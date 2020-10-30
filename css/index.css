@@ -65,12 +65,26 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
 .container {
     width: 800px;
     margin: 0 auto;
 }
-
+header{
+    display: flex;
+    justify-content: space-between;
+    margin:4% 0 2% 0;
+    text-align: center;
+}
+header div{
+    padding-top: 2%;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+.imgUnderHeader{
+    margin: 2% 0 5% 0;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,7 +125,36 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+.middle-content .boxes .box {
+    background:teal;
+}
+.middle-content .boxes .box + .box{
+    background:gold;
+}
+.middle-content .boxes .box + .box + .box{
+    background:cadetblue;
+}
+.middle-content .boxes .box + .box + .box + .box{
+    background:coral;
+}
+.middle-content .boxes .box + .box + .box + .box + .box{
+    background:crimson;
+}
+.middle-content .boxes .box + .box + .box + .box + .box + .box{
+    background:forestgreen;
+}
+.middle-content .boxes .box + .box + .box + .box + .box + .box + .box{
+    background:darkorchid;
+}
+.middle-content .boxes .box + .box + .box + .box + .box + .box + .box + .box{
+    background:hotpink;
+}
+.middle-content .boxes .box + .box + .box + .box + .box + .box + .box + .box + .box{
+    background:indigo;
+}
+.middle-content .boxes .box + .box + .box + .box + .box + .box + .box + .box + .box + .box{
+    background:dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
